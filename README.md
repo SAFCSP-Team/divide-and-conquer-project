@@ -3,7 +3,7 @@
 
 ### Objective
 
-In this project, our objective is to understand how to use divide and conquer algorithm
+In this project, our objective is to understand how to use divide and conquer algorithm.
 
 ### Problem
 Create `binarysearch` method that returns an integer representing the index of the target element in the array.
@@ -12,7 +12,7 @@ Create `binarysearch` method that returns an integer representing the index of t
 
 * initialize two integer variables `low` and `high`. Set low to 0, which represents the starting index of the array, and set high to `arr.length - 1`, which represents the ending index of the array.
 * use a while loop to continue the search until low is less than or equal to high.
-* within the loop, calculate the middle index `mid` by adding low to the difference between high and low, divided by 2.
+* within the loop, calculate the middle index `mid` by adding low to the difference between high and low, divided by 2 ( mid = ( high - low ) / 2).
 * check if the element at the `mid` index of the array `arr[mid]` is equal to the target. If they are equal, return the `mid` index as the position of the target element in the array.
 * if the target is greater than the element at the mid index, update low to mid + 1. This indicates that the target is located in the right half of the array.
 * if the target is smaller than the element at the mid index, update high to mid - 1. This indicates that the target is located in the left half of the array.
