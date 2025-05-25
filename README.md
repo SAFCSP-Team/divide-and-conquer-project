@@ -3,18 +3,15 @@
 
 ### Objective
 
-In this project, our objective is to understand how to use divide and conquer approach.
+In this project, our objective is to understand how to use the divide and conquer approach.
 
 ### Problem
-Create `binarysearch` method that returns an integer representing the index of the target element in the array.
+Create a `binarysearch` method that returns an integer representing the index of the target element in the array.
 
 ### Implementation
-* initialize variables `low` to starting index and `high` to the last index of the array.
-* continue searching while low is less than or equal to high.
-* determine the middle index mid of the current search range.
-* if the middle element matches the target, return its index.
-* if the target is larger than the middle element, focus on the right half of the array.
-* if the target is smaller than the middle element, focus on the left half of the array.
+* Initialize variables `low` to the starting index and `high` to the last index of the array.
+* Write the code that performs the *binary search algorithm* on the given array.
+* Return the *index* of the target.
 ```java
 public class BinarySearch {
 
